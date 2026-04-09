@@ -1,0 +1,20 @@
+{
+  "name": "twilio-verify-passkeys-test",
+  "version": "1.0.0",
+  "description": "Test scripts for Twilio Verify Passkeys API",
+  "type": "module",
+  "scripts": {
+    "create": "node 01-create-service-with-passkeys.js",
+    "update": "node 02-update-existing-service-add-passkeys.js",
+    "list": "node 03-list-services.js",
+    "details": "node 04-get-service-details.js",
+    "delete": "node 05-delete-service.js"
+  },
+  "keywords": ["twilio", "verify", "passkeys"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "twilio": "^5.3.5"
+  }
+}

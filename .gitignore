@@ -1,0 +1,10 @@
+# Environment variables with credentials
+.env
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Temporary files
+/tmp/
+*.tmp
